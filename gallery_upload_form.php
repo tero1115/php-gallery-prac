@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php include 'menu.html';?>
-    <form method="post" name="upload_form" enctype="multipart/form-data" action="gallary_upload_form_ok.php">
+    <form method="post" name="upload_form" enctype="multipart/form-data" action="gallery_upload_form_ok.php">
         이미지 업로드 : <input type="file" name="photo">
         <button id="upload_btn">업로드 확인</button>
     </form>

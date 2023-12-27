@@ -6,7 +6,7 @@ if ($_FILES['photo']['name'] == '') {
     echo "
     <script>
         alert('파일을 선택하지 않으셨습니다.');
-        self.location.href='./gallary_list.php';
+        self.location.href='gallery_list.php';
     </script>
     ";
     exit;
@@ -22,7 +22,7 @@ if ($ext == 'jpg' or $ext == 'png' or $ext == 'JPG' or $ext == 'PNG') {
     echo "
     <script>
         alert('정상적으로 업로드가 완료되었습니다.');
-        self.location.href='./gallary_list.php';
+        self.location.href='gallery_list.php';
     </script>
     ";
 } else {
